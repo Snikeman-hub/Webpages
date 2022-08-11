@@ -1,0 +1,73 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(234, 234, 234);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.header-image {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: 50% 15%;
+}
+.headline {
+    color: #831D17;
+    flex: 1;
+}
+.image-container {
+    background-color: white;
+    padding: 10px;
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    color: #831D17;
+    text-decoration: none;
+    margin-left: 16px;
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.text-highlight {
+    color: #484846;
+    font-size: 55px;
+}
+.text-container {
+    background-color: #dedede;
+    padding: 16px;
+    color: #484846;
+    font-weight: 600px;
+}
+.maps-container {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.maps-right {
+    margin-left: 16px;
+    width: 30%;
+
+}
+.maps-frame {
+    border: 0;
+    height: 350px;
+    width: 70%;
+}
+.legal-content {
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+.legal-text {
+    margin-right: 16px;
+    font-weight: 400;
+    font-size: 16px;
+
+}

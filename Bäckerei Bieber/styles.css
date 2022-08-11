@@ -1,0 +1,49 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+}
+#top{
+    text-align: center;
+}
+#logo {
+    color: azure;
+    background-color: sandybrown;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 8px;
+    margin-top: 16px;
+}
+#logo-name {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+#navigation a{
+    text-decoration: none;
+    color: saddlebrown;
+    padding: 8px;
+}
+#navigation a:hover {
+    color: sandybrown;
+    text-decoration: underline;
+}
+#image img{
+    width: 100%;
+    object-fit: cover;
+    max-height: 440px;
+    object-position: 25% 15%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+#main {
+    max-width: 850px;
+    margin: auto;
+    padding: 16px;
+}
+#footer {
+    text-align: center;
+    color: rgb(62, 64, 64);
+    padding: 16px;
+}
